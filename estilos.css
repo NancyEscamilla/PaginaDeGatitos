@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+
+}
+body {
+    margin:30px;
+    background-color:plum; /*https://mybrandnewlogo.com/es/generador-de-paleta-de-colores*/
+    color: #402b4d;
+    font-family: 'Handlee', cursive; /*pegar de la página de las fuentes https://fonts.google.com/*/
+}
+h3{
+    margin: 20px;
+   color: #863a6e;
+   font-size: 30px ; 
+}
+
+p{
+    color: #783c80 ;
+    font-size: 25px;
+}
+
+label, li{
+    font-size:20px;
+}
+
+img{
+    border-style: solid;   /*display: block, para centrar una imagen*/
+    border-color: #863a6e;
+
+    margin-left: 20px; /* es para separar las cosas de la orilla de la página*/
+    /*margin-bottom para separar de arriba y abajo*/
+
+    padding: 10px; /* es para ajustar la imagen dentro de su espacio, considerando el borde que se le puso*/
+}
+
+.img1{
+    height: 300px;
+    width:auto;
+    
+}
+
+.img2{
+    height: 300px;
+    width: auto;
+   
+}
+
+.img3{
+    height:300px;
+}
+
+a{
+    color:lightpink;
+}

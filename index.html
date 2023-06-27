@@ -1,0 +1,96 @@
+<!DOCTYPE html> <!--doctype define si será HTML o XML-->
+<html lang="es"> <!--html en español-->
+
+<!--esto es un comentario-->
+     <head> <!--esto no es visible-->
+        <title>Página de gatitos</title>
+        <meta charset="UTF-8"> <!-- metadatos,le da información a la web sobre para que funcione. Charset es para decir que caracteres se van a utilizar en la página. UTF-8 es como por default -->
+        <link href="estilos.css" rel="stylesheet"> <!--para conectar esto con el archivo de css-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet"> <!--conectar la fuente de internet-->
+
+      </head>
+      
+      <body> <!--esto si es visible-->
+        <h1>Página de michinos</h1> <!--h es de un título un encabezado-->
+        <h3>Imágenes de michinos</h3><!--conforme van avanzando los números el encabezado es más pequeño--> 
+        
+        <!--imagen desde internet-->
+        <img class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQUl80_NNkY7NysEEIiiTEXuN5_mlHIT1pmg&usqp=CAU" alt="Gato Galletoso" title="Gato Galletoso"> <!--src es de fuente, de donde viene-->
+        
+        <!--imagen desde computadora-->
+        <img class="img2" src="imagenes/Cappu.jpeg" alt="Rey de los Cappuccinos">
+
+        <img class="img3" src="https://e0.pxfuel.com/wallpapers/775/36/desktop-wallpaper-tuxedo-cats-tuxedo-kitten.jpg" alt="Pechi>"
+
+        <!--crear enlaces externos-->
+        <p> <a href="https://pixabay.com/es/images/search/gatito/" target="_blank">Da click aquí</a>, para más imágenes de michinos</p> <!--para que los abra en tra pestaña es lo de _blank-->
+
+        <h3>Listas de michinos</h3>
+        <p> 3 cosas que <strong>aman</strong> los michis</p> <!--strong es para remarcar-->
+
+        <!--Lista ordenada. Ordered List-->
+        <ol>
+          <li>Dormir</li> <!--list item-->
+          <li>Cajas</li>
+          <li>Ventanas</li>
+        </ol>
+
+       <p>3 cosas que <strong><i>odian</i></strong> los michis</p> <!--i es para poner en cursiva-->
+        
+       <!--Lista desordenada.Unordered list-->
+       <ul>
+        <li>Ser molestados</li>
+        <li>Perros</li>
+        <li>Bañarse</li> <!--se puede poner li* y el número de veces que queremos que se ponga, para no poner 1x1-->
+       </ul>
+
+       <!--Formularios. Para registrar información-->
+       <form>
+        <!--form con botones de radio-->
+        <p>¿Tu michi es bebé,adulto o viejito?</p>
+        <label> <!--relacionar una etiqueta descriptiva con un elemento del formulario-->
+          <input id="bebé" type="radio" value="bebé" name="bebé-viejito" <!--checked >Bebé <!--type es para ver que tipo de forma, solo se puede seleccionar una. value que valor se va a registrar y name es como se va a llamar todo el formulario. ese checked se le puede agregar si se quiere que desde que se abra la pagina ya esté seleccionado  -->
+        </label>
+        <br>
+        <label>
+          <input id="adulto" type="radio" value="adulto" name="bebé-viejito">Adulto
+        </label>
+        <br> <!--break, para hacer que no esten al mismo nivel sino uno abajo de otro-->
+        <label>
+          <input id="viejito" type="radio" value="viejito" name="bebé-viejito">Viejito
+        </label>
+        <br>
+        <label>
+
+        <!--form con casillas de verificación-->
+        <p>¿Qué tipo de personalidad tiene tu michi?</p>
+        <label>
+          <input id="enojon" type="checkbox" value="enojon" name="personalidad">Enojón
+        </label>
+        
+        <label>
+          <input id="cariñoso" type="checkbox" value="cariñoso" name="personalidad">Cariñoso
+        </label>
+        
+        <label>
+          <input id="jugueton" type="checkbox" value="jugueton" name="personalidad">Juguetón
+        </label>
+
+        <label>
+          <input id="tranquilo" type="checkbox" value="tranquilo" name="personalidad">Tranquilo
+        </label>
+
+        <label>
+          <input id="aesthetic" type="checkbox" value="aesthetic" name="personalidad">Aesthetic
+        </label>
+       </form>
+
+      </body>
+
+      <footer>
+        <p><small>Esta página fue creada en el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank"> Tecnolochicas PRO</a></small></p>
+
+      </footer>
+</html>
